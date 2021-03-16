@@ -5,8 +5,8 @@ const hbs = require('hbs')
 const { response } = require('express')
 
 // import util files
-const geocode = require('../../weather-app/utils/geocode')
-const forecast = require('../../weather-app/utils/forecast')
+const geocode = require('./utils/geocode')
+const forecast = require('./utils/forecast')
 
 const app = express()
 const port = process.env.PORT || 3000
